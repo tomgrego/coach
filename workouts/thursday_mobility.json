@@ -1,0 +1,212 @@
+{
+  "workoutName": "W22 - Thursday Mobility & Elbow Prehab",
+  "sportType": {
+    "sportTypeId": 5,
+    "sportTypeKey": "strength_training"
+  },
+  "subSportType": "GENERIC",
+  "workoutSegments": [
+    {
+      "segmentOrder": 1,
+      "sportType": {
+        "sportTypeId": 5,
+        "sportTypeKey": "strength_training"
+      },
+      "workoutSteps": [
+        {
+          "type": "ExecutableStepDTO",
+          "stepOrder": 1,
+          "stepType": {
+            "stepTypeId": 1,
+            "stepTypeKey": "warmup"
+          },
+          "description": "Cat-Cow Flow (10 cycles) then Child's Pose (60s). Inhale arching, exhale rounding. Breathe into back ribs in Child's Pose.",
+          "endCondition": {
+            "conditionTypeId": 2,
+            "conditionTypeKey": "time"
+          },
+          "endConditionValue": 180,
+          "targetType": {
+            "workoutTargetTypeId": 1,
+            "workoutTargetTypeKey": "no.target"
+          }
+        },
+        {
+          "type": "ExecutableStepDTO",
+          "stepOrder": 2,
+          "stepType": {
+            "stepTypeId": 3,
+            "stepTypeKey": "interval"
+          },
+          "description": "Tyler Twist BOTH ARMS (lateral elbow): FlexBar vertically, wrist extended. Twist with other hand, extend arms, slowly unwind 3s eccentric. 15 reps per arm. No FlexBar? Use wrist extensions on table edge.",
+          "endCondition": {
+            "conditionTypeId": 1,
+            "conditionTypeKey": "lap.button"
+          },
+          "targetType": {
+            "workoutTargetTypeId": 1,
+            "workoutTargetTypeKey": "no.target"
+          }
+        },
+        {
+          "type": "ExecutableStepDTO",
+          "stepOrder": 3,
+          "stepType": {
+            "stepTypeId": 3,
+            "stepTypeKey": "interval"
+          },
+          "description": "Reverse Tyler Twist BOTH ARMS (medial elbow): FlexBar bottom hand wrist flexed. Twist, extend, unwind into extension 3s eccentric. 15 reps per arm. No FlexBar? Use wrist curls on table edge.",
+          "endCondition": {
+            "conditionTypeId": 1,
+            "conditionTypeKey": "lap.button"
+          },
+          "targetType": {
+            "workoutTargetTypeId": 1,
+            "workoutTargetTypeKey": "no.target"
+          }
+        },
+        {
+          "type": "ExecutableStepDTO",
+          "stepOrder": 4,
+          "stepType": {
+            "stepTypeId": 3,
+            "stepTypeKey": "interval"
+          },
+          "description": "Forearm Pronation/Supination: Hold dumbbell on one end. Slowly turn palm up then palm down. 15 reps each direction, each arm. 3s eccentric. Targets Pronator Teres.",
+          "endCondition": {
+            "conditionTypeId": 1,
+            "conditionTypeKey": "lap.button"
+          },
+          "targetType": {
+            "workoutTargetTypeId": 1,
+            "workoutTargetTypeKey": "no.target"
+          }
+        },
+        {
+          "type": "ExecutableStepDTO",
+          "stepOrder": 5,
+          "stepType": {
+            "stepTypeId": 3,
+            "stepTypeKey": "interval"
+          },
+          "description": "Tendon Gliding Sequence: 5 positions (straight hand, hook fist, tabletop, straight fist, full fist). Hold each 5s. Full extend between. 3 complete cycles per hand.",
+          "endCondition": {
+            "conditionTypeId": 2,
+            "conditionTypeKey": "time"
+          },
+          "endConditionValue": 180,
+          "targetType": {
+            "workoutTargetTypeId": 1,
+            "workoutTargetTypeKey": "no.target"
+          }
+        },
+        {
+          "type": "ExecutableStepDTO",
+          "stepOrder": 6,
+          "stepType": {
+            "stepTypeId": 3,
+            "stepTypeKey": "interval"
+          },
+          "description": "Rubber Band Finger Extensions: Spread all fingers against band resistance. 3x15 reps, hold max extension 3s each. Strengthens antagonist to grip forces.",
+          "endCondition": {
+            "conditionTypeId": 1,
+            "conditionTypeKey": "lap.button"
+          },
+          "targetType": {
+            "workoutTargetTypeId": 1,
+            "workoutTargetTypeKey": "no.target"
+          }
+        },
+        {
+          "type": "ExecutableStepDTO",
+          "stepOrder": 7,
+          "stepType": {
+            "stepTypeId": 3,
+            "stepTypeKey": "interval"
+          },
+          "description": "Quadruped Hip CARs: On hands and knees, draw largest circle with knee. 5 circles each direction, each hip. Each circle takes 5s. MCL-safe (no standing shear).",
+          "endCondition": {
+            "conditionTypeId": 2,
+            "conditionTypeKey": "time"
+          },
+          "endConditionValue": 120,
+          "targetType": {
+            "workoutTargetTypeId": 1,
+            "workoutTargetTypeKey": "no.target"
+          }
+        },
+        {
+          "type": "ExecutableStepDTO",
+          "stepOrder": 8,
+          "stepType": {
+            "stepTypeId": 3,
+            "stepTypeKey": "interval"
+          },
+          "description": "90/90 Hip Rotations: Lead leg 90 deg in front, trail leg 90 deg to side. Rotate torso over lead thigh, hold 30s. Swap sides. 5 transitions. MCL: Don't force trailing knee flat.",
+          "endCondition": {
+            "conditionTypeId": 2,
+            "conditionTypeKey": "time"
+          },
+          "endConditionValue": 300,
+          "targetType": {
+            "workoutTargetTypeId": 1,
+            "workoutTargetTypeKey": "no.target"
+          }
+        },
+        {
+          "type": "ExecutableStepDTO",
+          "stepOrder": 9,
+          "stepType": {
+            "stepTypeId": 3,
+            "stepTypeKey": "interval"
+          },
+          "description": "Bench T-Spine Mobilization: Kneel at bench, elbows on edge, PVC pipe palms-up. Sit back to heels, chest sinks. Bend elbows to bring pipe past head. 8 reps, hold end-range 5s.",
+          "endCondition": {
+            "conditionTypeId": 1,
+            "conditionTypeKey": "lap.button"
+          },
+          "targetType": {
+            "workoutTargetTypeId": 1,
+            "workoutTargetTypeKey": "no.target"
+          }
+        },
+        {
+          "type": "ExecutableStepDTO",
+          "stepOrder": 10,
+          "stepType": {
+            "stepTypeId": 3,
+            "stepTypeKey": "interval"
+          },
+          "description": "Thoracic Windmill: Lie on side, top knee pinned on foam roller at 90 deg. Sweep top hand in large circle overhead, rotate torso. Follow hand with eyes. 8 reps each side.",
+          "endCondition": {
+            "conditionTypeId": 2,
+            "conditionTypeKey": "time"
+          },
+          "endConditionValue": 180,
+          "targetType": {
+            "workoutTargetTypeId": 1,
+            "workoutTargetTypeKey": "no.target"
+          }
+        },
+        {
+          "type": "ExecutableStepDTO",
+          "stepOrder": 11,
+          "stepType": {
+            "stepTypeId": 4,
+            "stepTypeKey": "recovery"
+          },
+          "description": "Child's Pose 60s (deep breathing into back ribs). Then Reclined Figure-Four each side 45s (cross ankle over opposite knee, pull toward chest, keep foot flexed for MCL safety).",
+          "endCondition": {
+            "conditionTypeId": 2,
+            "conditionTypeKey": "time"
+          },
+          "endConditionValue": 150,
+          "targetType": {
+            "workoutTargetTypeId": 1,
+            "workoutTargetTypeKey": "no.target"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+    "credentials": {
+        "user": "GARMIN_EMAIL",
+        "password": "GARMIN_PASSWORD"
+    },
+    "directories": {
+        "base_dir": "/home/gregoto4/work/tries/2026-05-21-coach/GarminDB",
+        "relative_to_home": false
+    },
+    "db": {
+        "type": "sqlite"
+    },
+    "data": {
+        "download_latest_activities": 25,
+        "download_all_activities": 100,
+        "download_days_overlap": 3
+    },
+    "settings": {
+        "metric": true
+    }
+}

@@ -1,0 +1,197 @@
+{
+  "workoutName": "W22 - Sunday Recovery & Elbow Prehab",
+  "sportType": {
+    "sportTypeId": 5,
+    "sportTypeKey": "strength_training"
+  },
+  "subSportType": "GENERIC",
+  "workoutSegments": [
+    {
+      "segmentOrder": 1,
+      "sportType": {
+        "sportTypeId": 5,
+        "sportTypeKey": "strength_training"
+      },
+      "workoutSteps": [
+        {
+          "type": "ExecutableStepDTO",
+          "stepOrder": 1,
+          "stepType": {
+            "stepTypeId": 1,
+            "stepTypeKey": "warmup"
+          },
+          "description": "Diaphragmatic Expansion Contrast: Standing tall. Phase 1: Exhale fully, raise arms overhead. Phase 2: Inhale deeply, raise arms. Feel the difference. 5 reps each. Then Sphinx to Baby Cobra 5 reps.",
+          "endCondition": {
+            "conditionTypeId": 2,
+            "conditionTypeKey": "time"
+          },
+          "endConditionValue": 240,
+          "targetType": {
+            "workoutTargetTypeId": 1,
+            "workoutTargetTypeKey": "no.target"
+          }
+        },
+        {
+          "type": "ExecutableStepDTO",
+          "stepOrder": 2,
+          "stepType": {
+            "stepTypeId": 3,
+            "stepTypeKey": "interval"
+          },
+          "description": "Tyler Twist BOTH ARMS (lateral elbow prehab): 15 reps each arm, 3s eccentric unwind. If tender, use lightest FlexBar or bodyweight wrist extensions on table edge.",
+          "endCondition": {
+            "conditionTypeId": 1,
+            "conditionTypeKey": "lap.button"
+          },
+          "targetType": {
+            "workoutTargetTypeId": 1,
+            "workoutTargetTypeKey": "no.target"
+          }
+        },
+        {
+          "type": "ExecutableStepDTO",
+          "stepOrder": 3,
+          "stepType": {
+            "stepTypeId": 3,
+            "stepTypeKey": "interval"
+          },
+          "description": "Reverse Tyler Twist BOTH ARMS (medial elbow prehab): 15 reps each arm, 3s eccentric. Or wrist curls on table edge.",
+          "endCondition": {
+            "conditionTypeId": 1,
+            "conditionTypeKey": "lap.button"
+          },
+          "targetType": {
+            "workoutTargetTypeId": 1,
+            "workoutTargetTypeKey": "no.target"
+          }
+        },
+        {
+          "type": "ExecutableStepDTO",
+          "stepOrder": 4,
+          "stepType": {
+            "stepTypeId": 3,
+            "stepTypeKey": "interval"
+          },
+          "description": "Tendon Gliding Sequence: 5 positions (straight, hook fist, tabletop, straight fist, full fist). Hold each 5s. Full extend between. 2 complete cycles per hand. Then Rubber Band Finger Extensions 2x15.",
+          "endCondition": {
+            "conditionTypeId": 2,
+            "conditionTypeKey": "time"
+          },
+          "endConditionValue": 180,
+          "targetType": {
+            "workoutTargetTypeId": 1,
+            "workoutTargetTypeKey": "no.target"
+          }
+        },
+        {
+          "type": "ExecutableStepDTO",
+          "stepOrder": 5,
+          "stepType": {
+            "stepTypeId": 3,
+            "stepTypeKey": "interval"
+          },
+          "description": "Couch Stretch with Pelvic Tilt: Kneel with shin against wall. Squeeze back glute, tuck pelvis. Stand tall. 60s each side. MCL: Keep back knee pointing straight forward.",
+          "endCondition": {
+            "conditionTypeId": 2,
+            "conditionTypeKey": "time"
+          },
+          "endConditionValue": 120,
+          "targetType": {
+            "workoutTargetTypeId": 1,
+            "workoutTargetTypeKey": "no.target"
+          }
+        },
+        {
+          "type": "ExecutableStepDTO",
+          "stepOrder": 6,
+          "stepType": {
+            "stepTypeId": 3,
+            "stepTypeKey": "interval"
+          },
+          "description": "Downward Dog with Pedaling: Inverted V. Alternate bending one knee while driving opposite heel toward floor. 10 reps each side. Restores calves, hamstrings, Achilles after Saturday run.",
+          "endCondition": {
+            "conditionTypeId": 2,
+            "conditionTypeKey": "time"
+          },
+          "endConditionValue": 120,
+          "targetType": {
+            "workoutTargetTypeId": 1,
+            "workoutTargetTypeKey": "no.target"
+          }
+        },
+        {
+          "type": "ExecutableStepDTO",
+          "stepOrder": 7,
+          "stepType": {
+            "stepTypeId": 3,
+            "stepTypeKey": "interval"
+          },
+          "description": "Soleus Calf Stretch: Step forward, bend BOTH knees, back heel flat. 45s each side. MCL: Back knee straight forward, no valgus. Then Lying Hamstring Stretch 45s each side.",
+          "endCondition": {
+            "conditionTypeId": 2,
+            "conditionTypeKey": "time"
+          },
+          "endConditionValue": 180,
+          "targetType": {
+            "workoutTargetTypeId": 1,
+            "workoutTargetTypeKey": "no.target"
+          }
+        },
+        {
+          "type": "ExecutableStepDTO",
+          "stepOrder": 8,
+          "stepType": {
+            "stepTypeId": 3,
+            "stepTypeKey": "interval"
+          },
+          "description": "Reclined Figure-Four (glutes/piriformis): On back, cross ankle over opposite knee, pull uncrossed thigh to chest. 60s each side. Keep crossed foot flexed for MCL safety.",
+          "endCondition": {
+            "conditionTypeId": 2,
+            "conditionTypeKey": "time"
+          },
+          "endConditionValue": 120,
+          "targetType": {
+            "workoutTargetTypeId": 1,
+            "workoutTargetTypeKey": "no.target"
+          }
+        },
+        {
+          "type": "ExecutableStepDTO",
+          "stepOrder": 9,
+          "stepType": {
+            "stepTypeId": 3,
+            "stepTypeKey": "interval"
+          },
+          "description": "Standing Thoracic Rotation: Semi-squat, one forearm inside thighs. Rotate opposite hand and chest upward. Follow hand with eyes. 8 reps each side.",
+          "endCondition": {
+            "conditionTypeId": 2,
+            "conditionTypeKey": "time"
+          },
+          "endConditionValue": 120,
+          "targetType": {
+            "workoutTargetTypeId": 1,
+            "workoutTargetTypeKey": "no.target"
+          }
+        },
+        {
+          "type": "ExecutableStepDTO",
+          "stepOrder": 10,
+          "stepType": {
+            "stepTypeId": 4,
+            "stepTypeKey": "recovery"
+          },
+          "description": "Child's Pose 90s: Arms extended, deep diaphragmatic breathing into back ribs. Full body scan. Release remaining tension from elbows, shoulders, hips. Weekly HRV/RHR review after this session.",
+          "endCondition": {
+            "conditionTypeId": 2,
+            "conditionTypeKey": "time"
+          },
+          "endConditionValue": 120,
+          "targetType": {
+            "workoutTargetTypeId": 1,
+            "workoutTargetTypeKey": "no.target"
+          }
+        }
+      ]
+    }
+  ]
+}

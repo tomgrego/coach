@@ -1,0 +1,14 @@
+[project]
+name = "2026-05-21-coach"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fitparse>=1.2.0",
+    "garminconnect>=0.3.3",
+    "garmindb>=3.8.0",
+    "matplotlib>=3.10.9",
+    "pandas>=3.0.3",
+    "python-dotenv>=1.2.2",
+]
