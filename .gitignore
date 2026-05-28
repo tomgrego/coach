@@ -13,3 +13,7 @@ GarminConnectConfig.json
 .antigravitycli
 .gemini
 GarminDB/
+
+# Private files
+garmindb.log
+garmin_tokens.json
